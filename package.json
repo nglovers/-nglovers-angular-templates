@@ -1,13 +1,23 @@
 {
-	"name": "@nglovers/angular-templates",
-	"version": "0.9.0",
-	"peerDependencies": {
-		"@angular/common": "^9.1.9",
-		"@angular/core": "^9.1.9",
-		"@angular/material": "^9.2.4",
-		"headroom.js": "^0.11.0"
-	},
-	"dependencies": {
-		"tslib": "^1.10.0"
-	}
+  "name": "@nglovers/angular-templates",
+  "version": "0.9.0",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9",
+    "@angular/material": "^9.2.4",
+    "headroom.js": "^0.11.0"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "repository": {
+    "url": "https://github.com/ngs2/-nglovers-angular-templates",
+    "type": "git"
+  },
+  "author": {
+    "name": "Juninho Cruz",
+    "email": "antoniojr.ufam@gmail.com",
+    "url": "https://juninhocruzg3.github.io"
+  },
+  "description": "Build your website structure quickly with headers, footers, sidebars, pages and more, all ready to use."
 }
