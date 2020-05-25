@@ -1,0 +1,26 @@
+ngs2-header {
+	z-index: 50;
+}
+
+mat-sidenav {
+	padding-top: 64px;
+	@media screen and (max-width: 600px) {
+		padding-top: 56px;
+	}
+}
+
+.body-page {
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - 64px);
+	justify-content: space-between;
+	padding-top: 64px;
+	@media screen and (max-width: 600px) {
+		min-height: calc(100vh - 56px);
+		padding-top: 56px;
+	}
+}
+
+.page-content {
+	flex-grow: 1;
+}

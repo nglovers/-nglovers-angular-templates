@@ -1,0 +1,34 @@
+:host {
+	width: 100%;
+	background-color: #ff0000;
+	height: 64px;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	@media screen and (max-width: 600px) {
+		height: 56px;
+	}
+}
+
+mat-toolbar-row {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.left {
+	font-size: 16px;
+	line-height: 16px;
+}

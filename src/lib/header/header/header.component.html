@@ -1,0 +1,14 @@
+<mat-toolbar class="elevation" [color]="color">
+	<mat-toolbar-row>
+		<div class="branding">
+			<mat-icon (click)="onClickToOpenMenu()" class="menu-icon clickable" aria-hidden="false"
+				aria-label="Example menu icon">
+				menu
+			</mat-icon>
+			<ng-content select="[header-branding]"></ng-content>
+		</div>
+		<div class="tools">
+			<ng-content select="[header-tools]"></ng-content>
+		</div>
+	</mat-toolbar-row>
+</mat-toolbar>

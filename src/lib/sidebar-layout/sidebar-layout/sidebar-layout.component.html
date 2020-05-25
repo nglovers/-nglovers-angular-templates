@@ -1,0 +1,20 @@
+<ngs2-header [headroomOpt]="headroomOpt" [color]="color" (menuClick)="onClickToOpenMenu()">
+	<ng-content select="[header-branding]" header-branding></ng-content>
+	<ng-content select="[header-tools]" header-tools></ng-content>
+</ngs2-header>
+<mat-sidenav-container (backdropClick)="this.controller.closeMenu()">
+	<mat-sidenav mode="over" [opened]="controller.menuOpened" (keydown.escape)="this.controller.closeMenu()"
+		fixedInViewport>
+		<ng-content select="[sidebar]"></ng-content>
+	</mat-sidenav>
+	<mat-sidenav-content class="body-page layout-content">
+		<div class="page-content">
+			<ng-content></ng-content>
+		</div>
+		<ngs2-footer [color]="color">
+			<ng-content select="[footer-left]" footer-left></ng-content>
+			<ng-content select="[footer-right]" footer-right></ng-content>
+			<ng-content select="[footer-center]" footer-center></ng-content>
+		</ngs2-footer>
+	</mat-sidenav-content>
+</mat-sidenav-container>

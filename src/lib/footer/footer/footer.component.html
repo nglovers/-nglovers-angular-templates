@@ -1,0 +1,13 @@
+<mat-toolbar [color]="color">
+	<mat-toolbar-row>
+		<div class="left">
+			<ng-content select="[footer-left]"></ng-content>
+		</div>
+		<div class="center">
+			<ng-content select="[footer-center]"></ng-content>
+		</div>
+		<div class="right">
+			<ng-content select="[footer-right]"></ng-content>
+		</div>
+	</mat-toolbar-row>
+</mat-toolbar>
