@@ -1,24 +1,11 @@
-# AngularTemplates
+# NG Lovers Templates
+
+Build your website structure quickly with headers, footers, sidebars, pages and more, all ready to use.
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
-## Code scaffolding
+## Documentation
 
-Run `ng generate component component-name --project angular-templates` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-templates`.
-> Note: Don't forget to add `--project angular-templates` or else it will be added to the default project in your `angular.json` file. 
+To get more help, go check out the [NG Lovers Website](https://ngs2.github.io).
 
-## Build
-
-Run `ng build angular-templates` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build angular-templates`, go to the dist folder `cd dist/angular-templates` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test angular-templates` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[GET STARTED with NG Lovers](https://ngs2.github.io/get-started-templates).
